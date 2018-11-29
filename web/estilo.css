@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/03/2018, 11:03:24
+    Author     : 11151100178
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #0000;
+    height: 50%;
+    /*position: fixed;*/
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #aaa;
+    color: black;
+}
+
+.icone-botao {
+    color: #aaa;
+}
+
+
+.cliente {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0; 
+   left: 0;
+   /*background: #000;
+   opacity: 0.8;
+   background-size: auto;
+   background-image: url('image/peanuts_mod.jpg');*/
+   align-content: center;
+}
+.principal{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0; 
+   left: 0;
+   background: #000;
+   /*opacity: 0.8;*/
+   background-color: #0099cc;
+   /*background-image: url('imagem/funcoazul.jpg');*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-origin: padding-box;
+  
+   align-content: center;
+   color: #ffffff; 
+}
+.img-test img{
+    width: 500px;
+    height: 350px;
+    margin-top: 10px;
+    
+}
+
+
+/*.button {
+    background-color: #555555; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}*/
+
+
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #aaa;
+    font-size: 60px;
+}
+
+input[type=search] {
+    font-family: arial;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 500px;
+}
+
+#case-produtos, table {
+    display: inline-block;
+}
+
+.produto {
+    width: 200px;
+}
+
+.icone-botao {
+    color: #aaa;
+}
+.preco {
+    color: #aaa;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+a, a:hover {
+    color: #aaa;
+    text-decoration: none;
+}
